@@ -5,15 +5,23 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "srv": "nodemon ./server.js"
   },
   "dependencies": {
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "fastify": "^3.9.1",
+    "fastify-cors": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "pg-promise": "^10.8.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.9",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
